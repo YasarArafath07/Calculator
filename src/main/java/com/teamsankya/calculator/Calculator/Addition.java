@@ -7,6 +7,7 @@ public class Addition {
 
 	public static int add(int a, int b) {
 		LOGGER.info("adding two integers " + a + "" + b);
+		System.out.println("adding two integers");
 		return a + b;
 	}
 
